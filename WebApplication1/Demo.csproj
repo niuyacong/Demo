@@ -39,6 +39,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>Reference\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Core">
+      <HintPath>Reference\Common.Logging.Core.dll</HintPath>
+    </Reference>
     <Reference Include="HuaTang.Framework">
       <HintPath>..\refence\HuaTang.Framework.dll</HintPath>
     </Reference>
@@ -48,6 +54,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MySql.Data">
       <HintPath>..\refence\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>Reference\Quartz.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -183,7 +192,9 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services\demoscheule.cs" />
     <Compile Include="services\LoadFile.cs" />
+    <Compile Include="services\quartzdemo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -246,6 +257,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\prov\" />
+    <Folder Include="Views\Quartzdemo\" />
     <Folder Include="Views\TwoNum\" />
   </ItemGroup>
   <ItemGroup>

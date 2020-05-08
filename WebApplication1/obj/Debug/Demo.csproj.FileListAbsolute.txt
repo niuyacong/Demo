@@ -75,3 +75,6 @@ F:\my\Demo\WebApplication1\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.
 F:\my\Demo\WebApplication1\obj\Debug\Demo.csprojResolveAssemblyReference.cache
 F:\my\Demo\WebApplication1\obj\Debug\WebApplication1.dll
 F:\my\Demo\WebApplication1\obj\Debug\WebApplication1.pdb
+F:\my\Demo\WebApplication1\bin\Common.Logging.Core.dll
+F:\my\Demo\WebApplication1\bin\Common.Logging.dll
+F:\my\Demo\WebApplication1\bin\Quartz.dll
